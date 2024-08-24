@@ -1,0 +1,121 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+
+}
+h1{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+
+}
+h2{
+    padding-bottom: 10px;
+    color: #66BFBF;
+    font-family: "Merriweather", serif;
+    font-size: 2.5rem;
+    
+
+}
+h3{
+    color: #11999E;
+    font-family: "Merriweather", serif;
+
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    /* padding-bottom: 4.7%; */
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+     
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+}
+
+.profilephoto{
+    border-radius: 50%;
+    width: 20%;
+}
+.coding-image {
+    border-radius: 50%;
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+.guitar-playing{
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 30px;
+    float: right;
+}
+.skill-row{
+    width: 50% ;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+
+}
+
+hr{
+    border: dotted #EAF6F6 6px; border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 40px;
+}
+.btn {
+    background-color: #11cdd4; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+a{
+    color: #11999E;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
